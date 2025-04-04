@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mulugu Music Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .header {
+      background-color: #6a1b9a;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 50px;
+    }
+
+    .header p {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: transform 0.3s;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card h2 {
+      color: #6a1b9a;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .card ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .card ul li {
+      padding: 5px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #6a1b9a;
+      color: white;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Mulugu Songs</h1>
+    <p>Murali Krishna - Musician | Producer | Goal-Getter</p>
+  </div>
+
+  <div class="cards-container">
+    <!-- Folk -->
+    <div class="card">
+      <img src="pspk.jpeg" alt="Folk Songs">
+      <h2>Folk Songs</h2>
+      <ul>
+        <li>Chittigadi Pallelo - Mangli</li>
+        <li>Lambadi Pata - Goreti Venkanna</li>
+        <li>Jathara Beats - Vaddepalli Srinivas</li>
+      </ul>
+    </div>
+
+    <!-- Indian -->
+    <div class="card">
+      <img src="pspk.jpeg" alt="Indian Songs">
+      <h2>Indian Songs</h2>
+      <ul>
+        <li>Jai Ho - Sukhwinder Singh</li>
+        <li>Tum Mile - Neeraj Shridhar</li>
+        <li>Ae Watan - Arijit Singh</li>
+      </ul>
+    </div>
+
+    <!-- Western -->
+    <div class="card">
+      <img src="pspk.jpeg" alt="Western Songs">
+      <h2>Western Songs</h2>
+      <ul>
+        <li>Blinding Lights - The Weeknd</li>
+        <li>Shape of You - Ed Sheeran</li>
+        <li>Levitating - Dua Lipa</li>
+      </ul>
+    </div>
+
+    <!-- Classical -->
+    <div class="card">
+      <img src="pspk.jpeg" alt="Classical">
+      <h2>Classical</h2>
+      <ul>
+        <li>Raag Bhairavi - Pt. Bhimsen Joshi</li>
+        <li>Krishna Nee Begane - Balamuralikrishna</li>
+        <li>Kalyani Raagam - Sudha Raghunathan</li>
+      </ul>
+    </div>
+
+    <!-- Vocal -->
+    <div class="card">
+      <img src="pspk.jpeg" alt="Vocal Tracks">
+      <h2>Vocal Tracks</h2>
+      <ul>
+        <li>Sa Pa Sa - SPB</li>
+        <li>Riyaz Time - Shreya Ghoshal</li>
+        <li>Voice Practice - KJ Yesudas</li>
+      </ul>
+    </div>
+
+    <!-- Devotional -->
+    <div class="card">
+      <img src="pspk.jpeg" alt="Devotional">
+      <h2>Devotional Songs</h2>
+      <ul>
+        <li>Om Namah Shivaya - Anuradha Paudwal</li>
+        <li>Govinda Hari - SPB</li>
+        <li>Sai Ram Sai Shyam - Lata Mangeshkar</li>
+      </ul>
+    </div>
+
+    <!-- Rock -->
+    <div class="card">
+      <img src="pspk.jpeg" alt="Rock Songs">
+      <h2>Rock Songs</h2>
+      <ul>
+        <li>Bohemian Rhapsody - Queen</li>
+        <li>Smells Like Teen Spirit - Nirvana</li>
+        <li>Hotel California - Eagles</li>
+      </ul>
+    </div>
+
+    <!-- Instrumental -->
+    <div class="card">
+      <img src="pspk.jpeg" alt="Instrumental">
+      <h2>Instrumental Tracks</h2>
+      <ul>
+        <li>Piano Memories - Yiruma</li>
+        <li>Guitar Dreams - John Williams</li>
+        <li>Flute Bliss - Hariprasad Chaurasia</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Mulugu Songs | All Rights Reserved.
+  </footer>
+
+</body>
+</html>
